@@ -1,5 +1,6 @@
 package Game;
 
+import main.java.RockPaperScissorGame.RockPaperScissorsGame;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -15,6 +16,7 @@ public class RockPaperScissorTest {
     }
     @Test public void itShouldGiveTheGameResultYouWin(){
         String expected = "you win";
-        assertEquals(expected,RockPaperScissorsGame.getUserGuess("scissor","rock"));
+        assertEquals(expected, RockPaperScissorsGame.getUserGuess("scissor","rock"));
     }
+
 }
